@@ -19,9 +19,9 @@ const isFragile = (product: Product) => product.fragile;
 
 const sum = (value1: number, value2: number) => value1 + value2;
 
-const average = (sumPrice: resultObjectMedia, priceTotalToProduct: number) => {
-  const newQtde = sumPrice.qtde + 1;
-  const newTotal = sumPrice.total + priceTotalToProduct;
+const average = (objectMedia: resultObjectMedia, priceTotalToProduct: number) => {
+  const newQtde = objectMedia.qtde + 1;
+  const newTotal = objectMedia.total + priceTotalToProduct;
   return {
     qtde: newQtde,
     total: newTotal,
