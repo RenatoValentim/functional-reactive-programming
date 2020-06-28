@@ -15,7 +15,7 @@ const CART = [
   { name: 'Caderno', qtde: 4, price: 27.10 },
   { name: 'Lapis', qtde: 3, price: 5.82 },
   { name: 'Tesoura', qtde: 1, price: 19.20 },
-] as Product;
+];
 
 const NAMES_PRODUCTS = CART.map(product => product.name);
 const PRICE_PRODUCTS = CART.map(product => product.qtde * product.price);
